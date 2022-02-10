@@ -1,0 +1,33 @@
+{
+  "name": "koa_init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm src",
+    "start:dev": "nodemon --watch src/ -r esm src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YongSungHEO@github.com/YongSungHEO/koa_init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YongSungHEO/koa_init/issues"
+  },
+  "homepage": "https://github.com/YongSungHEO/koa_init#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.15"
+  }
+}
